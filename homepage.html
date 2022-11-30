@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Homepage</title>
+    <link rel="stylesheet" href="home_style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,36 +16,23 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
-
-    <style>
-      /*Stlying for hover/selected navbar tab*/
-      li:nth-child(1) {
-        background-color: rgb(114, 114, 114);
-      }
-      li:hover {
-        background-color: rgb(114, 114, 114);
-      }
-
-      /*Syling for homepage banner*/
-      body {
-        background: url("Images/page_banner.jpg") no-repeat center;
-        background-size: 100% 100%;
-        height: 600px;
-      }
-      #title{
-        height: 540px;
-        box-sizing: content-box;
-      }
-      h1 {
-        font-size: 80px;
-        padding-top: 200px;
-      }
-    </style>
   </head>
+
+  <style>
+    body {
+      background-color: rgb(49, 5, 5);
+    }
+
+    /*selected page (Home)*/
+    li:nth-child(1) {
+      background-color: rgb(114, 114, 114);
+    }
+  </style>
 
   <body>
     <!--Page Container-->
-    <div class="container-fluid">
+    <div class="container-fluid" id="content">
+
       <!--Navbar-->
       <div class="row">
         <nav class="navbar navbar-expand navbar-dark bg-dark">
@@ -74,19 +62,73 @@
           </div>
         </nav>
       </div>
+      <!--Navbar-->
 
-      <div class="row" id="title">
-        <h1 class="text-center text-white">Restaurant</h1>
-      </div>
-
+      <!-- Banner image -->
       <div class="row">
-        <div class="col-6 border h1">1</div>
-        <div class="col-6 border h1">1</div>
+        <div id="banner" class="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="Images/page_banner.jpg"
+                class="d-block w-100"
+                alt="page banner, image of food"
+              />
+              <div
+                class="carousel-caption d-none d-md-block"
+                id="carousel-title"
+              >
+                <h5>Stay Home Eats</h5>
+                <p>Go ahead stay home, we got dinner covered.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <!-- Banner image -->
 
-      <div class="row">
-        
+      <!-- information row/columns -->
+      <div class="row mt-5" id="page-cards">
+        <div class="col m-3 pt-3 rounded-3">
+          <div class="col-6">
+            <p class="text-white">New Offers everyday!</p>
+          </div>
+          <div class="col">
+            <p class="text-white" id="card-body">
+              Everyday of the week has a different offer. Offers are not shown
+              until the day it is being offered, so be sure to turn on
+              notifications to get notified when there is a new offer!
+            </p>
+          </div>
+        </div>
+        <div class="col m-3 pt-3 rounded-3">
+          <div class="col-6">
+            <p class="text-white">Delivered Fresh to Your Door</p>
+          </div>
+          <div class="col">
+            <p class="text-white" id="card-body">
+              We take pride in using the freshest ingredients, only prepare
+              dishes when they are ordered, and deliver as quickly as possible.
+            </p>
+          </div>
+        </div>
       </div>
+      <!-- information row/columns -->
+
+      <!-- navigation row/columns -->
+      <div class="row rounded-4 p-3 text-center" id="nav-cards">
+        <a class="col m-2 pt-3 rounded-5" href="menu.html">
+          <p class="text-white p-5">Menu</p></a
+        >
+        <a class="col m-2 pt-3 rounded-5" href="offers.html">
+          <p class="text-white p-5">Offers</p></a
+        >
+        <a class="col m-2 pt-3 rounded-5" href="about.html">
+          <p class="text-white p-5">About</p></a
+        >
+      </div>
+      <!-- navigation row/columns -->
+
     </div>
   </body>
 </html>
