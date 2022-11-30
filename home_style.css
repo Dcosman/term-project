@@ -1,0 +1,58 @@
+/*Stlying for hover/selected navbar tab*/
+li:hover {
+  background-color: rgb(114, 114, 114);
+}
+/*Stlying for hover/selected navbar tab*/
+
+
+/*page banner*/
+.carousel-item {
+  height: 600px;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 600px;
+}
+
+#carousel-title {
+  margin-bottom: 200px;
+  font-size: 200%;
+  color: black;
+  font-weight: bolder;
+}
+
+#carousel-title h5 {
+  font-size: 200%;
+  font-weight: bolder;
+}
+/*page banner*/
+
+
+/*column/row styling*/
+#page-cards div,
+#nav-cards a {
+  background-color: rgb(94, 81, 81);
+  font-weight: bold;
+  font-size: larger;
+  text-decoration: none;
+}
+
+#card-body {
+  font-size: 75%;
+  text-align: start;
+}
+
+#nav-cards {
+  margin-top: 100px;
+  background-image: url("Images/row-background.png");
+  font-size: 200%;
+}
+
+#nav-cards a:hover {
+  background-color: rgb(70, 59, 59);
+  cursor: pointer;
+}
+/*column/row styling*/

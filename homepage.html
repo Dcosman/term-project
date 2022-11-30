@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="home_style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <style>
+    body {
+      background-color: rgb(49, 5, 5);
+    }
+
+    /*selected page (Home)*/
+    li:nth-child(1) {
+      background-color: rgb(114, 114, 114);
+    }
+  </style>
+
+  <body>
+    <!--Page Container-->
+    <div class="container-fluid" id="content">
+
+      <!--Navbar-->
+      <div class="row">
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item col-3 text-center">
+                <a class="nav-link text-white" href="homepage.html">Home</a>
+              </li>
+              <li class="nav-item col-3 text-center">
+                <a class="nav-link text-white" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item col-3 text-center">
+                <a class="nav-link text-white" href="offers.html">Offers</a>
+              </li>
+              <li class="nav-item col-3 text-center">
+                <a class="nav-link text-white" href="locations.html"
+                  >Locations</a
+                >
+              </li>
+              <li class="nav-item col-3 text-center">
+                <a class="nav-link text-white" href="about.html">About</a>
+              </li>
+              <li class="nav-item col-3 text-center active">
+                <a class="nav-link text-white" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!--Navbar-->
+
+      <!-- Banner image -->
+      <div class="row">
+        <div id="banner" class="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="Images/page_banner.jpg"
+                class="d-block w-100"
+                alt="page banner, image of food"
+              />
+              <div
+                class="carousel-caption d-none d-md-block"
+                id="carousel-title"
+              >
+                <h5>Stay Home Eats</h5>
+                <p>Go ahead stay home, we got dinner covered.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Banner image -->
+
+      <!-- information row/columns -->
+      <div class="row mt-5" id="page-cards">
+        <div class="col m-3 pt-3 rounded-3">
+          <div class="col-6">
+            <p class="text-white">New Offers everyday!</p>
+          </div>
+          <div class="col">
+            <p class="text-white" id="card-body">
+              Everyday of the week has a different offer. Offers are not shown
+              until the day it is being offered, so be sure to turn on
+              notifications to get notified when there is a new offer!
+            </p>
+          </div>
+        </div>
+        <div class="col m-3 pt-3 rounded-3">
+          <div class="col-6">
+            <p class="text-white">Delivered Fresh to Your Door</p>
+          </div>
+          <div class="col">
+            <p class="text-white" id="card-body">
+              We take pride in using the freshest ingredients, only prepare
+              dishes when they are ordered, and deliver as quickly as possible.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- information row/columns -->
+
+      <!-- navigation row/columns -->
+      <div class="row rounded-4 p-3 text-center" id="nav-cards">
+        <a class="col m-2 pt-3 rounded-5" href="menu.html">
+          <p class="text-white p-5">Menu</p></a
+        >
+        <a class="col m-2 pt-3 rounded-5" href="offers.html">
+          <p class="text-white p-5">Offers</p></a
+        >
+        <a class="col m-2 pt-3 rounded-5" href="about.html">
+          <p class="text-white p-5">About</p></a
+        >
+      </div>
+      <!-- navigation row/columns -->
+
+    </div>
+  </body>
+</html>
