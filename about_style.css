@@ -1,5 +1,26 @@
 /*Stlying for hover/selected navbar tab*/
-li:hover {
-    background-color: rgb(114, 114, 114);
-  }
-  /*Stlying for hover/selected navbar tab*/
+.navbar-nav li:hover {
+  background-color: rgb(114, 114, 114);
+}
+/*Stlying for hover/selected navbar tab*/
+
+/*selected page (About)*/
+.navbar-nav li:nth-child(5) {
+  background-color: rgb(114, 114, 114);
+}
+
+#about-info {
+  background-color: rgb(245, 245, 220, 0.6);
+}
+
+#about-info p,
+#about-info li {
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(41, 41, 41);
+}
+
+#about-info h1 {
+  font-size: 3em;
+  font-weight: bolder;
+}
