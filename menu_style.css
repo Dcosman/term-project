@@ -1,0 +1,55 @@
+/*Stlying for hover/selected navbar tab*/
+.navbar-nav li:hover {
+  background-color: rgb(114, 114, 114);
+}
+/*Stlying for hover/selected navbar tab*/
+
+/*selected page (Menu)*/
+.navbar-nav li:nth-child(2) {
+  background-color: rgb(114, 114, 114);
+}
+
+/*Font and Background style*/
+#menu-title,
+#menu-list > div {
+  background-color: rgb(245, 245, 220, 0.6);
+}
+
+#menu-title p,
+#menu-title li {
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(41, 41, 41);
+}
+
+#menu-title h1 {
+  font-size: 3em;
+  font-weight: bolder;
+}
+/*Font and Background style*/
+
+/*Menu list style*/
+#menu-list img {
+  height: 300px;
+  object-fit: cover !important;
+}
+
+#menu-list ul {
+  list-style: none;
+  line-height: 2rem;
+  font-weight: bold;
+}
+
+#menu-list span {
+  padding: 5px 10px;
+  font-weight: bold;
+  background-color: rgb(87, 25, 25);
+  color: white;
+}
+
+#menu-list span:hover {
+  padding: 10px 15px;
+  background-color: rgb(155, 69, 69);
+  cursor: pointer;
+}
+/*Menu list style*/
