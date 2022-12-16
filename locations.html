@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Locations</title>
+    <link rel="stylesheet" href="locations_style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <style>
+    body {
+      background-color: rgb(49, 5, 5);
+    }
+  </style>
+
+  <body>
+    <!--Page Container-->
+    <div class="container-fluid" id="content">
+      <!--Navbar-->
+      <div class="row">
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item col-3 text-center">
+                <a class="nav-link text-white" href="homepage.html">Home</a>
+              </li>
+              <li class="nav-item col-3 text-center">
+                <a class="nav-link text-white" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item col-3 text-center">
+                <a class="nav-link text-white" href="offers.html">Offers</a>
+              </li>
+              <li class="nav-item col-3 text-center">
+                <a class="nav-link text-white" href="locations.html"
+                  >Locations</a
+                >
+              </li>
+              <li class="nav-item col-3 text-center">
+                <a class="nav-link text-white" href="about.html">About</a>
+              </li>
+              <li class="nav-item col-3 text-center active">
+                <a class="nav-link text-white" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!--Navbar-->
+
+      <!-- Location Title -->
+      <div class="row my-5 mx-5 rounded-2" id="location-title">
+        <h1 class="col-12 text-center py-3">Check out our Locations</h1>
+      </div>
+      <!-- Location Title -->
+
+      <!-- Map -->
+      <p id="location-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89815.99595866872!2d-66.00065116163317!3d45.29327590925583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ca7b3c559bdfdab%3A0xc0a1728db06e15eb!2sNBCC%20Saint%20John%20Grandview%20Campus!5e0!3m2!1sen!2sca!4v1671166498480!5m2!1sen!2sca"
+          height="600"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="col-10"
+        ></iframe>
+      </p>
+      <!-- Map -->
+
+      <!-- locations List -->
+      <div class="row mt-5 mx-5 justify-content-center" id="location-list">
+        <div class="col-4 mx-5 p-3 rounded-3">
+          <div class="col-6">
+            <p class="text-white">Location 1:</p>
+          </div>
+          <div class="col">
+            <p class="text-white">NBCC Grandview Campus</p>
+          </div>
+          <div class="col">
+            <img src="Images/nbcc-saintjohn.jpg" class="w-100" />
+          </div>
+        </div>
+        <div class="col-4 p-3 mx-5 rounded-3">
+          <div class="col-6">
+            <p class="text-white">Location 2:</p>
+          </div>
+          <div class="col">
+            <p class="text-white">University of New Brunswick - Saint John</p>
+          </div>
+          <div class="col">
+            <img src="Images/unbsj.jpg" class="w-100" />
+          </div>
+        </div>
+      </div>
+      <!-- locations List -->
+    </div>
+    <!--Page Container-->
+  </body>
+</html>
