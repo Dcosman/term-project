@@ -1,0 +1,31 @@
+/*Stlying for hover/selected navbar tab*/
+.navbar-nav li:hover {
+  background-color: rgb(114, 114, 114);
+}
+/*Stlying for hover/selected navbar tab*/
+
+/*selected page (Locations)*/
+.navbar-nav li:nth-child(4) {
+  background-color: rgb(114, 114, 114);
+}
+
+/*Font and Background style*/
+#location-list div {
+  background-color: rgb(94, 81, 81);
+}
+
+#location-title {
+  background-color: rgb(245, 245, 220, 0.6);
+}
+
+#location-title h1 {
+  font-size: 3em;
+  font-weight: bolder;
+}
+/*Font and Background style*/
+
+/*map style*/
+#location-map {
+  text-align: center;
+}
+/*map style*/
