@@ -1,0 +1,46 @@
+/*Stlying for hover/selected navbar tab*/
+.navbar-nav li:hover {
+  background-color: rgb(114, 114, 114);
+}
+/*Stlying for hover/selected navbar tab*/
+
+/*selected page (Offers)*/
+.navbar-nav li:nth-child(3) {
+  background-color: rgb(114, 114, 114);
+}
+
+/*Font and Background style*/
+#offer-title {
+  background-color: rgb(245, 245, 220, 0.6);
+}
+
+#offer-title h1 {
+  font-size: 3em;
+  font-weight: bolder;
+}
+/*Font and Background style*/
+
+/*offer list style*/
+#offer-list img {
+  height: 300px;
+  object-fit: cover !important;
+}
+
+#offer-list ul {
+  list-style: none;
+  line-height: 2rem;
+  font-weight: bold;
+}
+
+#offer-list a {
+  padding: 5px 10px;
+  font-weight: bold;
+  background-color: rgb(87, 25, 25);
+  color: white;
+}
+
+#offer-list a:hover {
+  background-color: rgb(155, 69, 69);
+  cursor: pointer;
+}
+/*offer list style*/
