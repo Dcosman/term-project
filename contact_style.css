@@ -1,0 +1,13 @@
+/*Stlying for hover/selected navbar tab*/
+.navbar-nav li:hover {
+    background-color: rgb(114, 114, 114);
+  }
+  /*Stlying for hover/selected navbar tab*/
+  
+  /*selected page (Contact)*/
+  .navbar-nav li:nth-child(6) {
+    background-color: rgb(114, 114, 114);
+  }
+
+  
+  
