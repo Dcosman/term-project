@@ -9,6 +9,7 @@
   background-color: rgb(114, 114, 114);
 }
 
+/*Form Styling*/
 #form {
   font-size: 20px;
   line-height: 36px;
@@ -62,3 +63,19 @@ form > label {
   background-color: rgb(155, 69, 69);
   cursor: pointer;
 }
+/*Form Styling*/
+
+/*contact info styling*/
+#contact-info > div {
+  background-color: rgb(245, 245, 220, 0.6);
+}
+
+#contact-info h1 {
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+#contact-info img {
+  height: 300px;
+}
+/*contact info styling*/
