@@ -1,0 +1,81 @@
+/*Stlying for hover/selected navbar tab*/
+.navbar-nav li:hover {
+  background-color: rgb(114, 114, 114);
+}
+/*Stlying for hover/selected navbar tab*/
+
+/*selected page (Contact)*/
+.navbar-nav li:nth-child(6) {
+  background-color: rgb(114, 114, 114);
+}
+
+/*Form Styling*/
+#form {
+  font-size: 20px;
+  line-height: 36px;
+  margin-top: 20px;
+  background-color: #fffdd0;
+  border: solid thick #c5c3a3;
+  width: 70%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+form h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: solid thick #c5c3a3;
+}
+
+.input {
+  padding: 10px;
+  padding-bottom: 70px;
+}
+
+form > label {
+  text-decoration: underline;
+}
+
+#nameInput input {
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#message textarea {
+  width: 600px;
+  height: 200px;
+  resize: none;
+}
+
+#buttons input {
+  background-color: rgb(87, 25, 25);
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 150%;
+  width: 200px;
+  color: white;
+}
+
+#buttons input:hover {
+  background-color: rgb(155, 69, 69);
+  cursor: pointer;
+}
+/*Form Styling*/
+
+/*contact info styling*/
+#contact-info > div {
+  background-color: rgb(245, 245, 220, 0.6);
+}
+
+#contact-info h1 {
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+#contact-info img {
+  height: 300px;
+}
+/*contact info styling*/
